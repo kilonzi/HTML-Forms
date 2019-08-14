@@ -10,10 +10,9 @@ body {
     text-align: right;
     display: inline-flex;
     height: 15px;
-   
 }
 
-button{
+button {
     cursor: pointer;
     border-radius: 4px;
     color: white;
@@ -24,11 +23,11 @@ button{
 
 .navBtn button {
     padding: 10px 20px 10px 20px;
-    margin: 0px 2em; 
+    margin: 0px 2em;
     border: 1px solid #4c4c4c;
 }
 
- button:hover {
+button:hover {
     background: rgb(16, 18, 19);
 }
 
@@ -50,30 +49,30 @@ a {
     color: #0077C5;
 }
 
-.mainHead{
+.mainHead {
     width: 100%;
     margin: 5em auto 0 auto;
     text-align: center;
 }
 
-.title{
+.title {
     font-family: cursive;
 }
 
-.mainHead a{
-   color:  #8b8686;
+.mainHead a {
+    color: #8b8686;
 }
 
-.c{
+.c {
     display: inline-flex;
 }
 
-.c i{
+.c i {
     padding: 0 .3em;
     color: rgb(221, 88, 111);
 }
 
-.c h4{
+.c h4 {
     font-size: 1.3em;
 }
 
@@ -81,33 +80,33 @@ a {
     padding: 0 1.5em;
 }
 
-.form{
+.form {
     background: white;
     width: fit-content;
     margin: 0 auto;
-    padding:1em 3em 0 3em;
+    padding: 1em 3em 0 3em;
     border-radius: 4px 4px 0 0;
     border: .5px solid black;
-    font-weight: 700;
     border-bottom: none;
+    font-weight: 700;
 }
 
-.inputs{
+.inputs {
     margin-bottom: 2em;
-    outline: 0em;  
+    outline: 0em;
 }
 
-.form input{
+.form input {
     width: 95%;
     height: 2.6em;
-    margin-bottom:.4em; 
+    margin-bottom: .4em;
 }
 
-.accBtn{
+.accBtn {
     width: 100%;
 }
 
-.accBtn button{
+.accBtn button {
     width: 95%;
     text-align: center;
     padding: 1.2em 0;
@@ -120,15 +119,15 @@ a {
     margin: 3em 0;
 }
 
- .captcha {
+.captcha {
     width: fit-content;
-    margin: 0 auto; 
-     text-align: center;
-     padding:1em ;
-     border-radius:0 0 4px 4px;
-     color: #8b8686;
-     border: .5px solid black;
-     border-top: none;
-     position: relative;
-     bottom: 3em;
- }
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    border-radius: 0 0 4px 4px;
+    color: #8b8686;
+    border: .5px solid black;
+    border-top: none;
+    position: relative;
+    bottom: 3em;
+}
