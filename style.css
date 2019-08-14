@@ -2,6 +2,7 @@ html,
 body {
     background: #eceef1;
     display: block;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar {
@@ -12,7 +13,7 @@ body {
     padding: 1em;
 }
 
-.navBtn button {
+button {
     background: #0077C5;
     padding: 10px 20px 10px 20px;
     margin: 0px 20px;
@@ -26,10 +27,64 @@ body {
     line-height: 15px;
     position: relative;
     top: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 a {
     text-decoration: none;
     color: #0077C5;
+}
+
+.home {
+    width: 118px;
+    height: 35px;
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png)-236px 0px;
+}
+
+.home:hover {
+    width: 118px;
+    height: 35px;
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png)0px 0px;
+}
+
+.next {
+    width: 330px;
+    height: 35px;
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png)0px 35px;
+}
+
+h3 {
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+h2 {
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+form {
+    width: 360px;
+    background: white;
+    height: 735px;
+    border: 1px solid #c7c7c7;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+}
+
+label {
+    width: 300px;
+}
+
+.field {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+}
+
+form button {
+    width: 100%;
+    margin-top: 15px;
 }
