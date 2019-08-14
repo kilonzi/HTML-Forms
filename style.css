@@ -1,0 +1,35 @@
+html,
+body {
+    background: #eceef1;
+    display: block;
+}
+
+.navbar {
+    width: 100%;
+    justify-content: flex-end;
+    text-align: right;
+    display: inline-flex;
+    padding: 1em;
+}
+
+.navBtn button {
+    background: #0077C5;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 20px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+}
+
+.links {
+    font-size: .7em;
+    line-height: 15px;
+    position: relative;
+    top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: #0077C5;
+}
