@@ -16,7 +16,7 @@ body {
 button {
     background: #0077C5;
     padding: 10px 20px 10px 20px;
-    margin: 0px 20px;
+    margin: 0px 20px 0px 0px;
     color: white;
     border-radius: 4px;
     border: 1px solid #4c4c4c;
@@ -37,17 +37,20 @@ a {
 .home {
     width: 118px;
     height: 35px;
+    display: inline-flex;
     background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png)-236px 0px;
 }
 
 .home:hover {
     width: 118px;
     height: 35px;
+    display: inline-flex;
     background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png)0px 0px;
 }
 
 .next {
     width: 330px;
+    display: inline-flex;
     height: 35px;
     background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png)0px 35px;
 }
@@ -63,10 +66,12 @@ h2 {
 }
 
 form {
-    width: 360px;
+    width: 350px;
     background: white;
-    height: 735px;
+    min-height: 615px;
+    height: fit-content;
     border: 1px solid #c7c7c7;
+    display: inline-block;
 }
 
 input {
@@ -81,10 +86,24 @@ label {
 .field {
     width: 100%;
     padding: 5px;
-    display: inline-block;
+    display: block;
+    text-align: left;
 }
 
-form button {
+#createAccount {
+    width: 300px !important;
+    padding: 15px !important;
+}
+
+.recaptha {
     width: 100%;
-    margin-top: 15px;
+    background: #4c4c4c;
+    color: white;
+    padding: 0px;
+}
+
+.mainLogo,
+.mainContent {
+    align-content: center;
+    text-align: center;
 }
